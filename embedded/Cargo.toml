@@ -1,0 +1,14 @@
+[package]
+name = "embedded"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+cortex-m = "0.6.0"
+cortex-m-rt = "0.6.10"
+stm32f7 = { version = "0.14.0", features = ["rt", "stm32f7x7"] }
+rtt-target = { version = "0.2.2", features = ["cortex-m"] }
+panic-rtt-target = { version = "0.1.2", features = ["cortex-m"] }
+panic-halt = { version = "0.2.0" }

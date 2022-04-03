@@ -1,0 +1,20 @@
+[default.general]
+chip = "STM32F767ZITx"
+log_level = "INFO"
+
+[default.probe]
+protocol = "Swd"
+
+[default.flashing]
+enabled = true
+
+[default.reset]
+enabled = true
+halt_afterwards = false
+
+[default.rtt]
+enabled = true
+
+[default.gdb]
+enabled = false
+gdb_connection_string = "127.0.0.1:1337"
