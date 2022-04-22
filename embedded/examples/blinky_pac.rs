@@ -1,5 +1,5 @@
 //! Blinky program for the STM32F767 using only _basic_ embedded Rust crates,
-//! meaning no HAL is used and registers are modified by using the PAC crate.
+//! meaning no HAL is used and registers are modified by using the PAC.
 
 #![no_std]
 #![no_main]
